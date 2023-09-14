@@ -7,11 +7,19 @@ body {
   font-family: Montserrat;
 }
 
+._container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 15px;
+}
+
 .header {
   background-color: var(--secondary);
+}
+
+.header__container {
   display: flex;
-  padding-left: 100px;
-  padding-right: 100px;
   justify-content: space-between;
   align-items: center;
   height: 144px;
@@ -29,8 +37,6 @@ body {
   gap: 32px;
 }
 .main-container {
-  padding-left: 100px;
-  padding-right: 100px;
 }
 .slider-wrapper {
   background-color: #f7f9fc;
@@ -83,12 +89,4 @@ body {
 }
 .dots-full {
   background-color: var(--primary);
-}
-
-.slider-hide {
-  display: none;
-}
-
-.slider-show {
-  display: flex;
 }
